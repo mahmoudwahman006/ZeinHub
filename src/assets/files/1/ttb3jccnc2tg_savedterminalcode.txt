@@ -1,0 +1,23 @@
+# to create env 
+conda create --name zeinhun python=3.12
+
+# to activate 
+conda activate zainhub 
+
+# to install uv to the device not the env 
+wget -qO- https://astral.sh/uv/install.sh | sh
+
+
+#### UV world ::: 
+
+Creating and working on Python projects, i.e., with a pyproject.toml.
+
+uv init: Create a new Python project.
+uv add: Add a dependency to the project.
+uv remove: Remove a dependency from the project.
+uv sync: Sync the project's dependencies with the environment.
+uv lock: Create a lockfile for the project's dependencies.
+uv run: Run a command in the project environment.
+uv tree: View the dependency tree for the project.
+uv build: Build the project into distribution archives.
+uv publish: Publish the project to a package index.
