@@ -21,3 +21,25 @@ uv run: Run a command in the project environment.
 uv tree: View the dependency tree for the project.
 uv build: Build the project into distribution archives.
 uv publish: Publish the project to a package index.
+
+
+## using tool from uv --> creating a requirements file for a messy project 
+uv tool install pipreqs
+uvx run pipreqs . --force 
+
+
+### working in powershell 
+
+## to make dir 
+mkdir src
+
+## create env 
+python -m venv my_env
+
+## activate 
+.\my_env\Scripts\activate 
+
+## to pass the packeges to re file 
+pip freeze >> requirements.txt 
+
+
